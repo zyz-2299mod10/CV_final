@@ -1,0 +1,732 @@
+2024-06-04 03:33:22,474 - Model - INFO - PARAMETER ...
+2024-06-04 03:33:22,474 - Model - INFO - Namespace(batch_size=8, decay_rate=0.0001, epoch=200, learning_rate=0.001, log_dir=None, model='pointnet2_kpts', num_point=1024, optimizer='Adam', out_channel=9, process_data=False, use_cpu=False, use_normals=False, use_uniform_sample=False)
+2024-06-04 03:33:22,474 - Model - INFO - Load dataset ...
+2024-06-04 03:34:02,749 - Model - INFO - No existing model, starting training from scratch...
+2024-06-04 03:34:02,749 - Model - INFO - Start training...
+2024-06-04 03:34:02,750 - Model - INFO - Epoch 1 (1/200):
+2024-06-04 03:44:33,649 - Model - INFO - Train Rotation Error: 0.667084
+2024-06-04 03:44:33,649 - Model - INFO - Train Keypoint Offset Error: 0.005928
+2024-06-04 03:44:33,649 - Model - INFO - Train Translation Error: 1.370570
+2024-06-04 03:44:33,649 - Model - INFO - Train Mask Error: 0.046826
+2024-06-04 03:46:58,476 - Model - INFO - Test Keypoint offset Error: 0.005521, Translation Error: 1.504027, Rotation Error: 0.651998, Mask Error: 0.126804
+2024-06-04 03:46:58,476 - Model - INFO - Best Keypoint offset Error: 99.900000, Translation Error: 99.900000, Rotation Error: 99.900000, Mask Error: 99.900000
+2024-06-04 03:46:58,476 - Model - INFO - Save model...
+2024-06-04 03:46:58,476 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_1.pth
+2024-06-04 03:46:58,524 - Model - INFO - Epoch 2 (2/200):
+2024-06-04 03:57:25,937 - Model - INFO - Train Rotation Error: 0.662930
+2024-06-04 03:57:25,938 - Model - INFO - Train Keypoint Offset Error: 0.003176
+2024-06-04 03:57:25,938 - Model - INFO - Train Translation Error: 1.346450
+2024-06-04 03:57:25,938 - Model - INFO - Train Mask Error: 0.013598
+2024-06-04 03:59:50,391 - Model - INFO - Test Keypoint offset Error: 0.002569, Translation Error: 1.065294, Rotation Error: 0.651910, Mask Error: 0.013739
+2024-06-04 03:59:50,391 - Model - INFO - Best Keypoint offset Error: 0.005521, Translation Error: 1.504027, Rotation Error: 0.651998, Mask Error: 0.126804
+2024-06-04 03:59:50,392 - Model - INFO - Save model...
+2024-06-04 03:59:50,392 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_2.pth
+2024-06-04 03:59:50,439 - Model - INFO - Epoch 3 (3/200):
+2024-06-04 04:10:17,680 - Model - INFO - Train Rotation Error: 0.662297
+2024-06-04 04:10:17,680 - Model - INFO - Train Keypoint Offset Error: 0.002152
+2024-06-04 04:10:17,680 - Model - INFO - Train Translation Error: 1.281920
+2024-06-04 04:10:17,680 - Model - INFO - Train Mask Error: 0.012946
+2024-06-04 04:12:42,083 - Model - INFO - Test Keypoint offset Error: 0.002061, Translation Error: 1.016453, Rotation Error: 0.651911, Mask Error: 0.012853
+2024-06-04 04:12:42,083 - Model - INFO - Best Keypoint offset Error: 0.002569, Translation Error: 1.065294, Rotation Error: 0.651910, Mask Error: 0.013739
+2024-06-04 04:12:42,083 - Model - INFO - Save model...
+2024-06-04 04:12:42,083 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_3.pth
+2024-06-04 04:12:42,130 - Model - INFO - Epoch 4 (4/200):
+2024-06-04 04:23:11,040 - Model - INFO - Train Rotation Error: 0.662127
+2024-06-04 04:23:11,040 - Model - INFO - Train Keypoint Offset Error: 0.001875
+2024-06-04 04:23:11,041 - Model - INFO - Train Translation Error: 1.275991
+2024-06-04 04:23:11,041 - Model - INFO - Train Mask Error: 0.012701
+2024-06-04 04:25:35,410 - Model - INFO - Test Keypoint offset Error: 0.001591, Translation Error: 0.850541, Rotation Error: 0.652173, Mask Error: 0.012589
+2024-06-04 04:25:35,410 - Model - INFO - Best Keypoint offset Error: 0.002061, Translation Error: 1.016453, Rotation Error: 0.651911, Mask Error: 0.012853
+2024-06-04 04:25:35,410 - Model - INFO - Save model...
+2024-06-04 04:25:35,410 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_4.pth
+2024-06-04 04:25:35,457 - Model - INFO - Epoch 5 (5/200):
+2024-06-04 04:36:03,987 - Model - INFO - Train Rotation Error: 0.662566
+2024-06-04 04:36:03,987 - Model - INFO - Train Keypoint Offset Error: 0.001781
+2024-06-04 04:36:03,987 - Model - INFO - Train Translation Error: 1.303017
+2024-06-04 04:36:03,987 - Model - INFO - Train Mask Error: 0.012977
+2024-06-04 04:38:28,952 - Model - INFO - Test Keypoint offset Error: 0.002162, Translation Error: 0.967836, Rotation Error: 0.652321, Mask Error: 0.012634
+2024-06-04 04:38:28,952 - Model - INFO - Best Keypoint offset Error: 0.001591, Translation Error: 0.850541, Rotation Error: 0.652173, Mask Error: 0.012589
+2024-06-04 04:38:28,952 - Model - INFO - Epoch 6 (6/200):
+2024-06-04 04:48:56,506 - Model - INFO - Train Rotation Error: 0.662081
+2024-06-04 04:48:56,506 - Model - INFO - Train Keypoint Offset Error: 0.001930
+2024-06-04 04:48:56,507 - Model - INFO - Train Translation Error: 1.261813
+2024-06-04 04:48:56,507 - Model - INFO - Train Mask Error: 0.013022
+2024-06-04 04:51:21,523 - Model - INFO - Test Keypoint offset Error: 0.001516, Translation Error: 0.834856, Rotation Error: 0.651458, Mask Error: 0.012423
+2024-06-04 04:51:21,523 - Model - INFO - Best Keypoint offset Error: 0.001591, Translation Error: 0.850541, Rotation Error: 0.652173, Mask Error: 0.012589
+2024-06-04 04:51:21,523 - Model - INFO - Save model...
+2024-06-04 04:51:21,523 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_6.pth
+2024-06-04 04:51:21,570 - Model - INFO - Epoch 7 (7/200):
+2024-06-04 05:01:50,408 - Model - INFO - Train Rotation Error: 0.662833
+2024-06-04 05:01:50,408 - Model - INFO - Train Keypoint Offset Error: 0.002009
+2024-06-04 05:01:50,408 - Model - INFO - Train Translation Error: 1.296441
+2024-06-04 05:01:50,408 - Model - INFO - Train Mask Error: 0.013821
+2024-06-04 05:04:14,897 - Model - INFO - Test Keypoint offset Error: 0.001768, Translation Error: 0.978174, Rotation Error: 0.651538, Mask Error: 0.012611
+2024-06-04 05:04:14,897 - Model - INFO - Best Keypoint offset Error: 0.001516, Translation Error: 0.834856, Rotation Error: 0.651458, Mask Error: 0.012423
+2024-06-04 05:04:14,898 - Model - INFO - Epoch 8 (8/200):
+2024-06-04 05:14:42,770 - Model - INFO - Train Rotation Error: 0.661839
+2024-06-04 05:14:42,770 - Model - INFO - Train Keypoint Offset Error: 0.001655
+2024-06-04 05:14:42,770 - Model - INFO - Train Translation Error: 1.298272
+2024-06-04 05:14:42,770 - Model - INFO - Train Mask Error: 0.012809
+2024-06-04 05:17:07,224 - Model - INFO - Test Keypoint offset Error: 0.001799, Translation Error: 1.032880, Rotation Error: 0.651447, Mask Error: 0.013041
+2024-06-04 05:17:07,224 - Model - INFO - Best Keypoint offset Error: 0.001516, Translation Error: 0.834856, Rotation Error: 0.651458, Mask Error: 0.012423
+2024-06-04 05:17:07,225 - Model - INFO - Epoch 9 (9/200):
+2024-06-04 05:27:36,121 - Model - INFO - Train Rotation Error: 0.662375
+2024-06-04 05:27:36,121 - Model - INFO - Train Keypoint Offset Error: 0.001947
+2024-06-04 05:27:36,121 - Model - INFO - Train Translation Error: 1.299755
+2024-06-04 05:27:36,122 - Model - INFO - Train Mask Error: 0.012723
+2024-06-04 05:30:01,123 - Model - INFO - Test Keypoint offset Error: 0.001229, Translation Error: 0.765919, Rotation Error: 0.651325, Mask Error: 0.012878
+2024-06-04 05:30:01,123 - Model - INFO - Best Keypoint offset Error: 0.001516, Translation Error: 0.834856, Rotation Error: 0.651458, Mask Error: 0.012423
+2024-06-04 05:30:01,123 - Model - INFO - Epoch 10 (10/200):
+2024-06-04 05:40:28,823 - Model - INFO - Train Rotation Error: 0.661388
+2024-06-04 05:40:28,823 - Model - INFO - Train Keypoint Offset Error: 0.001145
+2024-06-04 05:40:28,823 - Model - INFO - Train Translation Error: 1.280468
+2024-06-04 05:40:28,823 - Model - INFO - Train Mask Error: 0.013057
+2024-06-04 05:42:53,366 - Model - INFO - Test Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 05:42:53,366 - Model - INFO - Best Keypoint offset Error: 0.001516, Translation Error: 0.834856, Rotation Error: 0.651458, Mask Error: 0.012423
+2024-06-04 05:42:53,366 - Model - INFO - Save model...
+2024-06-04 05:42:53,366 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_10.pth
+2024-06-04 05:42:53,414 - Model - INFO - Epoch 11 (11/200):
+2024-06-04 05:53:21,608 - Model - INFO - Train Rotation Error: 0.661914
+2024-06-04 05:53:21,608 - Model - INFO - Train Keypoint Offset Error: 0.001189
+2024-06-04 05:53:21,608 - Model - INFO - Train Translation Error: 1.265805
+2024-06-04 05:53:21,608 - Model - INFO - Train Mask Error: 0.012907
+2024-06-04 05:55:46,085 - Model - INFO - Test Keypoint offset Error: 0.001131, Translation Error: 0.885136, Rotation Error: 0.652334, Mask Error: 0.012777
+2024-06-04 05:55:46,085 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 05:55:46,085 - Model - INFO - Epoch 12 (12/200):
+2024-06-04 06:06:13,138 - Model - INFO - Train Rotation Error: 0.661405
+2024-06-04 06:06:13,138 - Model - INFO - Train Keypoint Offset Error: 0.001380
+2024-06-04 06:06:13,139 - Model - INFO - Train Translation Error: 1.325695
+2024-06-04 06:06:13,139 - Model - INFO - Train Mask Error: 0.070821
+2024-06-04 06:08:37,620 - Model - INFO - Test Keypoint offset Error: 0.001295, Translation Error: 18.185245, Rotation Error: 0.651404, Mask Error: 0.075859
+2024-06-04 06:08:37,620 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 06:08:37,620 - Model - INFO - Epoch 13 (13/200):
+2024-06-04 06:19:04,925 - Model - INFO - Train Rotation Error: 0.660644
+2024-06-04 06:19:04,925 - Model - INFO - Train Keypoint Offset Error: 0.001256
+2024-06-04 06:19:04,925 - Model - INFO - Train Translation Error: 0.947014
+2024-06-04 06:19:04,925 - Model - INFO - Train Mask Error: 0.033219
+2024-06-04 06:21:29,718 - Model - INFO - Test Keypoint offset Error: 0.001232, Translation Error: 26.376045, Rotation Error: 0.651718, Mask Error: 0.014948
+2024-06-04 06:21:29,718 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 06:21:29,719 - Model - INFO - Epoch 14 (14/200):
+2024-06-04 06:31:58,138 - Model - INFO - Train Rotation Error: 0.661169
+2024-06-04 06:31:58,138 - Model - INFO - Train Keypoint Offset Error: 0.001258
+2024-06-04 06:31:58,138 - Model - INFO - Train Translation Error: 0.713196
+2024-06-04 06:31:58,138 - Model - INFO - Train Mask Error: 0.013416
+2024-06-04 06:34:23,254 - Model - INFO - Test Keypoint offset Error: 0.001093, Translation Error: 0.708312, Rotation Error: 0.651532, Mask Error: 0.014287
+2024-06-04 06:34:23,254 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 06:34:23,254 - Model - INFO - Epoch 15 (15/200):
+2024-06-04 06:44:50,973 - Model - INFO - Train Rotation Error: 0.660652
+2024-06-04 06:44:50,974 - Model - INFO - Train Keypoint Offset Error: 0.001005
+2024-06-04 06:44:50,974 - Model - INFO - Train Translation Error: 0.694033
+2024-06-04 06:44:50,974 - Model - INFO - Train Mask Error: 0.013079
+2024-06-04 06:47:15,519 - Model - INFO - Test Keypoint offset Error: 0.001055, Translation Error: 0.760049, Rotation Error: 0.651772, Mask Error: 0.013851
+2024-06-04 06:47:15,519 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 06:47:15,519 - Model - INFO - Epoch 16 (16/200):
+2024-06-04 06:57:44,397 - Model - INFO - Train Rotation Error: 0.660736
+2024-06-04 06:57:44,397 - Model - INFO - Train Keypoint Offset Error: 0.001011
+2024-06-04 06:57:44,397 - Model - INFO - Train Translation Error: 0.747950
+2024-06-04 06:57:44,397 - Model - INFO - Train Mask Error: 0.013213
+2024-06-04 07:00:09,034 - Model - INFO - Test Keypoint offset Error: 0.001075, Translation Error: 0.868946, Rotation Error: 0.651688, Mask Error: 0.021255
+2024-06-04 07:00:09,034 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 07:00:09,035 - Model - INFO - Epoch 17 (17/200):
+2024-06-04 07:10:37,495 - Model - INFO - Train Rotation Error: 0.661404
+2024-06-04 07:10:37,495 - Model - INFO - Train Keypoint Offset Error: 0.001012
+2024-06-04 07:10:37,496 - Model - INFO - Train Translation Error: 0.740411
+2024-06-04 07:10:37,496 - Model - INFO - Train Mask Error: 0.013482
+2024-06-04 07:13:01,906 - Model - INFO - Test Keypoint offset Error: 0.000953, Translation Error: 0.785426, Rotation Error: 0.651599, Mask Error: 0.013210
+2024-06-04 07:13:01,906 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 07:13:01,906 - Model - INFO - Epoch 18 (18/200):
+2024-06-04 07:23:30,129 - Model - INFO - Train Rotation Error: 0.660262
+2024-06-04 07:23:30,129 - Model - INFO - Train Keypoint Offset Error: 0.000958
+2024-06-04 07:23:30,129 - Model - INFO - Train Translation Error: 0.722386
+2024-06-04 07:23:30,129 - Model - INFO - Train Mask Error: 0.012799
+2024-06-04 07:25:54,774 - Model - INFO - Test Keypoint offset Error: 0.000879, Translation Error: 0.760828, Rotation Error: 0.651525, Mask Error: 0.012933
+2024-06-04 07:25:54,774 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 07:25:54,774 - Model - INFO - Epoch 19 (19/200):
+2024-06-04 07:36:22,158 - Model - INFO - Train Rotation Error: 0.660483
+2024-06-04 07:36:22,158 - Model - INFO - Train Keypoint Offset Error: 0.000841
+2024-06-04 07:36:22,158 - Model - INFO - Train Translation Error: 0.702638
+2024-06-04 07:36:22,158 - Model - INFO - Train Mask Error: 0.012839
+2024-06-04 07:38:46,622 - Model - INFO - Test Keypoint offset Error: 0.000858, Translation Error: 0.751882, Rotation Error: 0.651875, Mask Error: 0.014535
+2024-06-04 07:38:46,622 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 07:38:46,622 - Model - INFO - Epoch 20 (20/200):
+2024-06-04 07:49:13,599 - Model - INFO - Train Rotation Error: 0.660187
+2024-06-04 07:49:13,600 - Model - INFO - Train Keypoint Offset Error: 0.000868
+2024-06-04 07:49:13,600 - Model - INFO - Train Translation Error: 0.700727
+2024-06-04 07:49:13,600 - Model - INFO - Train Mask Error: 0.012727
+2024-06-04 07:51:38,088 - Model - INFO - Test Keypoint offset Error: 0.000807, Translation Error: 0.757263, Rotation Error: 0.651709, Mask Error: 0.012584
+2024-06-04 07:51:38,088 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 07:51:38,088 - Model - INFO - Epoch 21 (21/200):
+2024-06-04 08:02:07,044 - Model - INFO - Train Rotation Error: 0.660459
+2024-06-04 08:02:07,045 - Model - INFO - Train Keypoint Offset Error: 0.000819
+2024-06-04 08:02:07,045 - Model - INFO - Train Translation Error: 0.700750
+2024-06-04 08:02:07,045 - Model - INFO - Train Mask Error: 0.012603
+2024-06-04 08:04:31,565 - Model - INFO - Test Keypoint offset Error: 0.000767, Translation Error: 0.671741, Rotation Error: 0.652223, Mask Error: 0.012577
+2024-06-04 08:04:31,565 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 08:04:31,565 - Model - INFO - Epoch 22 (22/200):
+2024-06-04 08:14:59,183 - Model - INFO - Train Rotation Error: 0.661665
+2024-06-04 08:14:59,183 - Model - INFO - Train Keypoint Offset Error: 0.000870
+2024-06-04 08:14:59,183 - Model - INFO - Train Translation Error: 0.714605
+2024-06-04 08:14:59,183 - Model - INFO - Train Mask Error: 0.012771
+2024-06-04 08:17:24,005 - Model - INFO - Test Keypoint offset Error: 0.000768, Translation Error: 0.725072, Rotation Error: 0.652358, Mask Error: 0.012995
+2024-06-04 08:17:24,005 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 08:17:24,005 - Model - INFO - Epoch 23 (23/200):
+2024-06-04 08:27:51,683 - Model - INFO - Train Rotation Error: 0.660482
+2024-06-04 08:27:51,683 - Model - INFO - Train Keypoint Offset Error: 0.000789
+2024-06-04 08:27:51,683 - Model - INFO - Train Translation Error: 0.719159
+2024-06-04 08:27:51,684 - Model - INFO - Train Mask Error: 0.012632
+2024-06-04 08:30:16,617 - Model - INFO - Test Keypoint offset Error: 0.000715, Translation Error: 0.693816, Rotation Error: 0.652154, Mask Error: 0.012706
+2024-06-04 08:30:16,617 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 08:30:16,617 - Model - INFO - Epoch 24 (24/200):
+2024-06-04 08:40:45,814 - Model - INFO - Train Rotation Error: 0.659268
+2024-06-04 08:40:45,815 - Model - INFO - Train Keypoint Offset Error: 0.000719
+2024-06-04 08:40:45,815 - Model - INFO - Train Translation Error: 0.723596
+2024-06-04 08:40:45,815 - Model - INFO - Train Mask Error: 0.012624
+2024-06-04 08:43:10,785 - Model - INFO - Test Keypoint offset Error: 0.000722, Translation Error: 0.739682, Rotation Error: 0.652538, Mask Error: 0.012906
+2024-06-04 08:43:10,786 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 08:43:10,786 - Model - INFO - Epoch 25 (25/200):
+2024-06-04 08:53:39,498 - Model - INFO - Train Rotation Error: 0.660354
+2024-06-04 08:53:39,499 - Model - INFO - Train Keypoint Offset Error: 0.000822
+2024-06-04 08:53:39,499 - Model - INFO - Train Translation Error: 0.734901
+2024-06-04 08:53:39,499 - Model - INFO - Train Mask Error: 0.012432
+2024-06-04 08:56:04,453 - Model - INFO - Test Keypoint offset Error: 0.000716, Translation Error: 0.669386, Rotation Error: 0.652323, Mask Error: 0.013116
+2024-06-04 08:56:04,453 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 08:56:04,453 - Model - INFO - Epoch 26 (26/200):
+2024-06-04 09:06:31,741 - Model - INFO - Train Rotation Error: 0.660221
+2024-06-04 09:06:31,741 - Model - INFO - Train Keypoint Offset Error: 0.000679
+2024-06-04 09:06:31,741 - Model - INFO - Train Translation Error: 0.730793
+2024-06-04 09:06:31,741 - Model - INFO - Train Mask Error: 0.012461
+2024-06-04 09:08:56,336 - Model - INFO - Test Keypoint offset Error: 0.000644, Translation Error: 0.733015, Rotation Error: 0.652656, Mask Error: 0.012252
+2024-06-04 09:08:56,336 - Model - INFO - Best Keypoint offset Error: 0.001006, Translation Error: 1.259120, Rotation Error: 0.651339, Mask Error: 0.012329
+2024-06-04 09:08:56,337 - Model - INFO - Save model...
+2024-06-04 09:08:56,337 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_26.pth
+2024-06-04 09:08:56,384 - Model - INFO - Epoch 27 (27/200):
+2024-06-04 09:19:24,357 - Model - INFO - Train Rotation Error: 0.660244
+2024-06-04 09:19:24,357 - Model - INFO - Train Keypoint Offset Error: 0.000654
+2024-06-04 09:19:24,358 - Model - INFO - Train Translation Error: 0.752606
+2024-06-04 09:19:24,358 - Model - INFO - Train Mask Error: 0.012518
+2024-06-04 09:21:49,340 - Model - INFO - Test Keypoint offset Error: 0.000628, Translation Error: 1.005055, Rotation Error: 0.653146, Mask Error: 0.013206
+2024-06-04 09:21:49,340 - Model - INFO - Best Keypoint offset Error: 0.000644, Translation Error: 0.733015, Rotation Error: 0.652656, Mask Error: 0.012252
+2024-06-04 09:21:49,341 - Model - INFO - Epoch 28 (28/200):
+2024-06-04 09:32:17,841 - Model - INFO - Train Rotation Error: 0.660273
+2024-06-04 09:32:17,841 - Model - INFO - Train Keypoint Offset Error: 0.000609
+2024-06-04 09:32:17,841 - Model - INFO - Train Translation Error: 0.775455
+2024-06-04 09:32:17,841 - Model - INFO - Train Mask Error: 0.012398
+2024-06-04 09:34:42,567 - Model - INFO - Test Keypoint offset Error: 0.000587, Translation Error: 0.738481, Rotation Error: 0.653837, Mask Error: 0.012454
+2024-06-04 09:34:42,567 - Model - INFO - Best Keypoint offset Error: 0.000644, Translation Error: 0.733015, Rotation Error: 0.652656, Mask Error: 0.012252
+2024-06-04 09:34:42,567 - Model - INFO - Epoch 29 (29/200):
+2024-06-04 09:45:09,653 - Model - INFO - Train Rotation Error: 0.659861
+2024-06-04 09:45:09,653 - Model - INFO - Train Keypoint Offset Error: 0.000895
+2024-06-04 09:45:09,653 - Model - INFO - Train Translation Error: 0.712164
+2024-06-04 09:45:09,653 - Model - INFO - Train Mask Error: 0.012604
+2024-06-04 09:47:34,401 - Model - INFO - Test Keypoint offset Error: 0.000631, Translation Error: 0.736705, Rotation Error: 0.653436, Mask Error: 0.012564
+2024-06-04 09:47:34,401 - Model - INFO - Best Keypoint offset Error: 0.000644, Translation Error: 0.733015, Rotation Error: 0.652656, Mask Error: 0.012252
+2024-06-04 09:47:34,401 - Model - INFO - Epoch 30 (30/200):
+2024-06-04 09:58:02,967 - Model - INFO - Train Rotation Error: 0.659890
+2024-06-04 09:58:02,967 - Model - INFO - Train Keypoint Offset Error: 0.000607
+2024-06-04 09:58:02,968 - Model - INFO - Train Translation Error: 0.746436
+2024-06-04 09:58:02,968 - Model - INFO - Train Mask Error: 0.012288
+2024-06-04 10:00:27,993 - Model - INFO - Test Keypoint offset Error: 0.000555, Translation Error: 0.799864, Rotation Error: 0.653681, Mask Error: 0.012284
+2024-06-04 10:00:27,993 - Model - INFO - Best Keypoint offset Error: 0.000644, Translation Error: 0.733015, Rotation Error: 0.652656, Mask Error: 0.012252
+2024-06-04 10:00:27,993 - Model - INFO - Save model...
+2024-06-04 10:00:27,993 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_30.pth
+2024-06-04 10:00:28,042 - Model - INFO - Epoch 31 (31/200):
+2024-06-04 10:10:54,714 - Model - INFO - Train Rotation Error: 0.660914
+2024-06-04 10:10:54,714 - Model - INFO - Train Keypoint Offset Error: 0.000566
+2024-06-04 10:10:54,714 - Model - INFO - Train Translation Error: 0.744801
+2024-06-04 10:10:54,714 - Model - INFO - Train Mask Error: 0.012467
+2024-06-04 10:13:19,512 - Model - INFO - Test Keypoint offset Error: 0.000573, Translation Error: 0.947797, Rotation Error: 0.654112, Mask Error: 0.012432
+2024-06-04 10:13:19,512 - Model - INFO - Best Keypoint offset Error: 0.000555, Translation Error: 0.799864, Rotation Error: 0.653681, Mask Error: 0.012284
+2024-06-04 10:13:19,513 - Model - INFO - Epoch 32 (32/200):
+2024-06-04 10:23:47,248 - Model - INFO - Train Rotation Error: 0.659909
+2024-06-04 10:23:47,249 - Model - INFO - Train Keypoint Offset Error: 0.000561
+2024-06-04 10:23:47,249 - Model - INFO - Train Translation Error: 0.775672
+2024-06-04 10:23:47,249 - Model - INFO - Train Mask Error: 0.012345
+2024-06-04 10:26:11,508 - Model - INFO - Test Keypoint offset Error: 0.000524, Translation Error: 0.787612, Rotation Error: 0.654368, Mask Error: 0.012487
+2024-06-04 10:26:11,509 - Model - INFO - Best Keypoint offset Error: 0.000555, Translation Error: 0.799864, Rotation Error: 0.653681, Mask Error: 0.012284
+2024-06-04 10:26:11,509 - Model - INFO - Epoch 33 (33/200):
+2024-06-04 10:36:39,441 - Model - INFO - Train Rotation Error: 0.660511
+2024-06-04 10:36:39,442 - Model - INFO - Train Keypoint Offset Error: 0.000496
+2024-06-04 10:36:39,442 - Model - INFO - Train Translation Error: 0.806295
+2024-06-04 10:36:39,442 - Model - INFO - Train Mask Error: 0.012257
+2024-06-04 10:39:03,973 - Model - INFO - Test Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 10:39:03,973 - Model - INFO - Best Keypoint offset Error: 0.000555, Translation Error: 0.799864, Rotation Error: 0.653681, Mask Error: 0.012284
+2024-06-04 10:39:03,974 - Model - INFO - Save model...
+2024-06-04 10:39:03,974 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_33.pth
+2024-06-04 10:39:04,020 - Model - INFO - Epoch 34 (34/200):
+2024-06-04 10:49:29,811 - Model - INFO - Train Rotation Error: 0.660232
+2024-06-04 10:49:29,811 - Model - INFO - Train Keypoint Offset Error: 0.000631
+2024-06-04 10:49:29,811 - Model - INFO - Train Translation Error: 0.753117
+2024-06-04 10:49:29,811 - Model - INFO - Train Mask Error: 0.012284
+2024-06-04 10:51:54,555 - Model - INFO - Test Keypoint offset Error: 0.000626, Translation Error: 0.719821, Rotation Error: 0.654149, Mask Error: 0.031405
+2024-06-04 10:51:54,555 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 10:51:54,556 - Model - INFO - Epoch 35 (35/200):
+2024-06-04 11:02:21,868 - Model - INFO - Train Rotation Error: 0.660804
+2024-06-04 11:02:21,868 - Model - INFO - Train Keypoint Offset Error: 0.000647
+2024-06-04 11:02:21,868 - Model - INFO - Train Translation Error: 0.740429
+2024-06-04 11:02:21,868 - Model - INFO - Train Mask Error: 0.012321
+2024-06-04 11:04:46,502 - Model - INFO - Test Keypoint offset Error: 0.001484, Translation Error: 1.853709, Rotation Error: 0.654996, Mask Error: 0.014589
+2024-06-04 11:04:46,502 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 11:04:46,503 - Model - INFO - Epoch 36 (36/200):
+2024-06-04 11:15:12,913 - Model - INFO - Train Rotation Error: 0.659960
+2024-06-04 11:15:12,913 - Model - INFO - Train Keypoint Offset Error: 0.001121
+2024-06-04 11:15:12,913 - Model - INFO - Train Translation Error: 0.824305
+2024-06-04 11:15:12,913 - Model - INFO - Train Mask Error: 0.012355
+2024-06-04 11:17:37,564 - Model - INFO - Test Keypoint offset Error: 0.000849, Translation Error: 0.750398, Rotation Error: 0.653979, Mask Error: 0.012257
+2024-06-04 11:17:37,564 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 11:17:37,564 - Model - INFO - Epoch 37 (37/200):
+2024-06-04 11:28:04,004 - Model - INFO - Train Rotation Error: 0.659536
+2024-06-04 11:28:04,004 - Model - INFO - Train Keypoint Offset Error: 0.000683
+2024-06-04 11:28:04,004 - Model - INFO - Train Translation Error: 0.758591
+2024-06-04 11:28:04,004 - Model - INFO - Train Mask Error: 0.012323
+2024-06-04 11:30:28,356 - Model - INFO - Test Keypoint offset Error: 0.000531, Translation Error: 0.741336, Rotation Error: 0.654473, Mask Error: 0.012394
+2024-06-04 11:30:28,356 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 11:30:28,356 - Model - INFO - Epoch 38 (38/200):
+2024-06-04 11:40:54,843 - Model - INFO - Train Rotation Error: 0.661264
+2024-06-04 11:40:54,843 - Model - INFO - Train Keypoint Offset Error: 0.000781
+2024-06-04 11:40:54,843 - Model - INFO - Train Translation Error: 0.800809
+2024-06-04 11:40:54,843 - Model - INFO - Train Mask Error: 0.012637
+2024-06-04 11:43:19,264 - Model - INFO - Test Keypoint offset Error: 0.000564, Translation Error: 0.882038, Rotation Error: 0.654478, Mask Error: 0.012078
+2024-06-04 11:43:19,264 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 11:43:19,265 - Model - INFO - Epoch 39 (39/200):
+2024-06-04 11:53:45,984 - Model - INFO - Train Rotation Error: 0.659694
+2024-06-04 11:53:45,984 - Model - INFO - Train Keypoint Offset Error: 0.000540
+2024-06-04 11:53:45,984 - Model - INFO - Train Translation Error: 0.778874
+2024-06-04 11:53:45,984 - Model - INFO - Train Mask Error: 0.012270
+2024-06-04 11:56:10,159 - Model - INFO - Test Keypoint offset Error: 0.002664, Translation Error: 1.627149, Rotation Error: 0.656012, Mask Error: 0.012437
+2024-06-04 11:56:10,159 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 11:56:10,159 - Model - INFO - Epoch 40 (40/200):
+2024-06-04 12:06:36,716 - Model - INFO - Train Rotation Error: 0.660591
+2024-06-04 12:06:36,716 - Model - INFO - Train Keypoint Offset Error: 0.001267
+2024-06-04 12:06:36,716 - Model - INFO - Train Translation Error: 0.734054
+2024-06-04 12:06:36,716 - Model - INFO - Train Mask Error: 0.012058
+2024-06-04 12:09:01,566 - Model - INFO - Test Keypoint offset Error: 0.000574, Translation Error: 0.757023, Rotation Error: 0.655715, Mask Error: 0.012025
+2024-06-04 12:09:01,566 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 12:09:01,566 - Model - INFO - Epoch 41 (41/200):
+2024-06-04 12:19:28,337 - Model - INFO - Train Rotation Error: 0.660626
+2024-06-04 12:19:28,337 - Model - INFO - Train Keypoint Offset Error: 0.000632
+2024-06-04 12:19:28,337 - Model - INFO - Train Translation Error: 0.699126
+2024-06-04 12:19:28,337 - Model - INFO - Train Mask Error: 0.012037
+2024-06-04 12:21:52,559 - Model - INFO - Test Keypoint offset Error: 0.000580, Translation Error: 0.811641, Rotation Error: 0.655168, Mask Error: 0.012260
+2024-06-04 12:21:52,559 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 12:21:52,559 - Model - INFO - Epoch 42 (42/200):
+2024-06-04 12:32:20,507 - Model - INFO - Train Rotation Error: 0.659533
+2024-06-04 12:32:20,507 - Model - INFO - Train Keypoint Offset Error: 0.000542
+2024-06-04 12:32:20,507 - Model - INFO - Train Translation Error: 0.729617
+2024-06-04 12:32:20,507 - Model - INFO - Train Mask Error: 0.011992
+2024-06-04 12:34:48,248 - Model - INFO - Test Keypoint offset Error: 0.000523, Translation Error: 0.792648, Rotation Error: 0.654820, Mask Error: 0.012286
+2024-06-04 12:34:48,248 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 12:34:48,248 - Model - INFO - Epoch 43 (43/200):
+2024-06-04 12:45:21,526 - Model - INFO - Train Rotation Error: 0.659921
+2024-06-04 12:45:21,526 - Model - INFO - Train Keypoint Offset Error: 0.000498
+2024-06-04 12:45:21,526 - Model - INFO - Train Translation Error: 0.714323
+2024-06-04 12:45:21,526 - Model - INFO - Train Mask Error: 0.012057
+2024-06-04 12:47:46,970 - Model - INFO - Test Keypoint offset Error: 0.000485, Translation Error: 0.804553, Rotation Error: 0.655047, Mask Error: 0.011981
+2024-06-04 12:47:46,970 - Model - INFO - Best Keypoint offset Error: 0.000481, Translation Error: 0.790360, Rotation Error: 0.653905, Mask Error: 0.012029
+2024-06-04 12:47:46,971 - Model - INFO - Save model...
+2024-06-04 12:47:46,971 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_43.pth
+2024-06-04 12:47:47,018 - Model - INFO - Epoch 44 (44/200):
+2024-06-04 12:58:19,239 - Model - INFO - Train Rotation Error: 0.659834
+2024-06-04 12:58:19,239 - Model - INFO - Train Keypoint Offset Error: 0.000463
+2024-06-04 12:58:19,239 - Model - INFO - Train Translation Error: 0.716453
+2024-06-04 12:58:19,239 - Model - INFO - Train Mask Error: 0.012097
+2024-06-04 13:00:46,905 - Model - INFO - Test Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 13:00:46,906 - Model - INFO - Best Keypoint offset Error: 0.000485, Translation Error: 0.804553, Rotation Error: 0.655047, Mask Error: 0.011981
+2024-06-04 13:00:46,906 - Model - INFO - Save model...
+2024-06-04 13:00:46,906 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_44.pth
+2024-06-04 13:00:46,956 - Model - INFO - Epoch 45 (45/200):
+2024-06-04 13:11:22,452 - Model - INFO - Train Rotation Error: 0.659793
+2024-06-04 13:11:22,452 - Model - INFO - Train Keypoint Offset Error: 0.000428
+2024-06-04 13:11:22,452 - Model - INFO - Train Translation Error: 0.727970
+2024-06-04 13:11:22,452 - Model - INFO - Train Mask Error: 0.012145
+2024-06-04 13:13:49,253 - Model - INFO - Test Keypoint offset Error: 0.000428, Translation Error: 0.685233, Rotation Error: 0.655562, Mask Error: 0.011905
+2024-06-04 13:13:49,253 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 13:13:49,254 - Model - INFO - Epoch 46 (46/200):
+2024-06-04 13:24:25,248 - Model - INFO - Train Rotation Error: 0.660232
+2024-06-04 13:24:25,248 - Model - INFO - Train Keypoint Offset Error: 0.000423
+2024-06-04 13:24:25,248 - Model - INFO - Train Translation Error: 0.750923
+2024-06-04 13:24:25,249 - Model - INFO - Train Mask Error: 0.012306
+2024-06-04 13:26:50,434 - Model - INFO - Test Keypoint offset Error: 0.000392, Translation Error: 0.852723, Rotation Error: 0.654828, Mask Error: 0.012219
+2024-06-04 13:26:50,434 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 13:26:50,434 - Model - INFO - Epoch 47 (47/200):
+2024-06-04 13:37:18,004 - Model - INFO - Train Rotation Error: 0.660412
+2024-06-04 13:37:18,004 - Model - INFO - Train Keypoint Offset Error: 0.000388
+2024-06-04 13:37:18,004 - Model - INFO - Train Translation Error: 0.754742
+2024-06-04 13:37:18,004 - Model - INFO - Train Mask Error: 0.012241
+2024-06-04 13:39:42,673 - Model - INFO - Test Keypoint offset Error: 0.000359, Translation Error: 0.806809, Rotation Error: 0.654588, Mask Error: 0.013672
+2024-06-04 13:39:42,673 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 13:39:42,674 - Model - INFO - Epoch 48 (48/200):
+2024-06-04 13:50:11,534 - Model - INFO - Train Rotation Error: 0.660092
+2024-06-04 13:50:11,534 - Model - INFO - Train Keypoint Offset Error: 0.000332
+2024-06-04 13:50:11,534 - Model - INFO - Train Translation Error: 0.770794
+2024-06-04 13:50:11,534 - Model - INFO - Train Mask Error: 0.012106
+2024-06-04 13:52:36,092 - Model - INFO - Test Keypoint offset Error: 0.000304, Translation Error: 0.847623, Rotation Error: 0.654889, Mask Error: 0.012050
+2024-06-04 13:52:36,092 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 13:52:36,092 - Model - INFO - Epoch 49 (49/200):
+2024-06-04 14:03:02,695 - Model - INFO - Train Rotation Error: 0.660055
+2024-06-04 14:03:02,695 - Model - INFO - Train Keypoint Offset Error: 0.001151
+2024-06-04 14:03:02,695 - Model - INFO - Train Translation Error: 0.803044
+2024-06-04 14:03:02,695 - Model - INFO - Train Mask Error: 0.012086
+2024-06-04 14:05:27,054 - Model - INFO - Test Keypoint offset Error: 0.001602, Translation Error: 0.768299, Rotation Error: 0.655273, Mask Error: 0.012384
+2024-06-04 14:05:27,054 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 14:05:27,054 - Model - INFO - Epoch 50 (50/200):
+2024-06-04 14:15:54,244 - Model - INFO - Train Rotation Error: 0.661059
+2024-06-04 14:15:54,244 - Model - INFO - Train Keypoint Offset Error: 0.001658
+2024-06-04 14:15:54,244 - Model - INFO - Train Translation Error: 0.757437
+2024-06-04 14:15:54,244 - Model - INFO - Train Mask Error: 0.012156
+2024-06-04 14:18:20,260 - Model - INFO - Test Keypoint offset Error: 0.002016, Translation Error: 0.805807, Rotation Error: 0.654817, Mask Error: 0.012739
+2024-06-04 14:18:20,260 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 14:18:20,260 - Model - INFO - Epoch 51 (51/200):
+2024-06-04 14:28:55,087 - Model - INFO - Train Rotation Error: 0.660741
+2024-06-04 14:28:55,087 - Model - INFO - Train Keypoint Offset Error: 0.001247
+2024-06-04 14:28:55,087 - Model - INFO - Train Translation Error: 0.726960
+2024-06-04 14:28:55,087 - Model - INFO - Train Mask Error: 0.012139
+2024-06-04 14:31:21,633 - Model - INFO - Test Keypoint offset Error: 0.000882, Translation Error: 0.762013, Rotation Error: 0.654080, Mask Error: 0.013324
+2024-06-04 14:31:21,633 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 14:31:21,634 - Model - INFO - Epoch 52 (52/200):
+2024-06-04 14:41:53,879 - Model - INFO - Train Rotation Error: 0.660067
+2024-06-04 14:41:53,879 - Model - INFO - Train Keypoint Offset Error: 0.000685
+2024-06-04 14:41:53,879 - Model - INFO - Train Translation Error: 0.764144
+2024-06-04 14:41:53,879 - Model - INFO - Train Mask Error: 0.012172
+2024-06-04 14:44:19,170 - Model - INFO - Test Keypoint offset Error: 0.000496, Translation Error: 0.739273, Rotation Error: 0.654583, Mask Error: 0.012464
+2024-06-04 14:44:19,170 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 14:44:19,170 - Model - INFO - Epoch 53 (53/200):
+2024-06-04 14:54:49,928 - Model - INFO - Train Rotation Error: 0.659768
+2024-06-04 14:54:49,928 - Model - INFO - Train Keypoint Offset Error: 0.000468
+2024-06-04 14:54:49,928 - Model - INFO - Train Translation Error: 0.755854
+2024-06-04 14:54:49,928 - Model - INFO - Train Mask Error: 0.012094
+2024-06-04 14:57:14,633 - Model - INFO - Test Keypoint offset Error: 0.000436, Translation Error: 0.943845, Rotation Error: 0.654369, Mask Error: 0.012332
+2024-06-04 14:57:14,633 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 14:57:14,633 - Model - INFO - Epoch 54 (54/200):
+2024-06-04 15:07:41,860 - Model - INFO - Train Rotation Error: 0.660212
+2024-06-04 15:07:41,860 - Model - INFO - Train Keypoint Offset Error: 0.000468
+2024-06-04 15:07:41,860 - Model - INFO - Train Translation Error: 0.718339
+2024-06-04 15:07:41,860 - Model - INFO - Train Mask Error: 0.012265
+2024-06-04 15:10:06,297 - Model - INFO - Test Keypoint offset Error: 0.000437, Translation Error: 0.824554, Rotation Error: 0.654269, Mask Error: 0.012404
+2024-06-04 15:10:06,297 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 15:10:06,298 - Model - INFO - Epoch 55 (55/200):
+2024-06-04 15:20:33,367 - Model - INFO - Train Rotation Error: 0.660263
+2024-06-04 15:20:33,367 - Model - INFO - Train Keypoint Offset Error: 0.000447
+2024-06-04 15:20:33,367 - Model - INFO - Train Translation Error: 0.751754
+2024-06-04 15:20:33,367 - Model - INFO - Train Mask Error: 0.012167
+2024-06-04 15:22:57,566 - Model - INFO - Test Keypoint offset Error: 0.000416, Translation Error: 0.839207, Rotation Error: 0.654673, Mask Error: 0.012278
+2024-06-04 15:22:57,566 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 15:22:57,566 - Model - INFO - Epoch 56 (56/200):
+2024-06-04 15:33:30,872 - Model - INFO - Train Rotation Error: 0.660298
+2024-06-04 15:33:30,872 - Model - INFO - Train Keypoint Offset Error: 0.000418
+2024-06-04 15:33:30,872 - Model - INFO - Train Translation Error: 0.756499
+2024-06-04 15:33:30,872 - Model - INFO - Train Mask Error: 0.012128
+2024-06-04 15:35:56,032 - Model - INFO - Test Keypoint offset Error: 0.000430, Translation Error: 0.923747, Rotation Error: 0.655074, Mask Error: 0.012298
+2024-06-04 15:35:56,032 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 15:35:56,032 - Model - INFO - Epoch 57 (57/200):
+2024-06-04 15:46:27,391 - Model - INFO - Train Rotation Error: 0.659236
+2024-06-04 15:46:27,391 - Model - INFO - Train Keypoint Offset Error: 0.000409
+2024-06-04 15:46:27,391 - Model - INFO - Train Translation Error: 0.758879
+2024-06-04 15:46:27,392 - Model - INFO - Train Mask Error: 0.012077
+2024-06-04 15:48:52,041 - Model - INFO - Test Keypoint offset Error: 0.000360, Translation Error: 0.825959, Rotation Error: 0.654706, Mask Error: 0.012037
+2024-06-04 15:48:52,041 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 15:48:52,041 - Model - INFO - Epoch 58 (58/200):
+2024-06-04 15:59:19,428 - Model - INFO - Train Rotation Error: 0.659499
+2024-06-04 15:59:19,428 - Model - INFO - Train Keypoint Offset Error: 0.000521
+2024-06-04 15:59:19,428 - Model - INFO - Train Translation Error: 0.777566
+2024-06-04 15:59:19,428 - Model - INFO - Train Mask Error: 0.012207
+2024-06-04 16:01:44,022 - Model - INFO - Test Keypoint offset Error: 0.000520, Translation Error: 0.722230, Rotation Error: 0.654391, Mask Error: 0.012454
+2024-06-04 16:01:44,022 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 16:01:44,022 - Model - INFO - Epoch 59 (59/200):
+2024-06-04 16:12:11,834 - Model - INFO - Train Rotation Error: 0.660398
+2024-06-04 16:12:11,834 - Model - INFO - Train Keypoint Offset Error: 0.000419
+2024-06-04 16:12:11,834 - Model - INFO - Train Translation Error: 0.779657
+2024-06-04 16:12:11,834 - Model - INFO - Train Mask Error: 0.012107
+2024-06-04 16:14:36,704 - Model - INFO - Test Keypoint offset Error: 0.000367, Translation Error: 0.875555, Rotation Error: 0.654752, Mask Error: 0.012388
+2024-06-04 16:14:36,704 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 16:14:36,704 - Model - INFO - Epoch 60 (60/200):
+2024-06-04 16:25:03,906 - Model - INFO - Train Rotation Error: 0.659076
+2024-06-04 16:25:03,906 - Model - INFO - Train Keypoint Offset Error: 0.000354
+2024-06-04 16:25:03,906 - Model - INFO - Train Translation Error: 0.780691
+2024-06-04 16:25:03,906 - Model - INFO - Train Mask Error: 0.011904
+2024-06-04 16:27:28,405 - Model - INFO - Test Keypoint offset Error: 0.000314, Translation Error: 0.872021, Rotation Error: 0.654740, Mask Error: 0.012723
+2024-06-04 16:27:28,405 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 16:27:28,405 - Model - INFO - Epoch 61 (61/200):
+2024-06-04 16:37:55,422 - Model - INFO - Train Rotation Error: 0.659035
+2024-06-04 16:37:55,422 - Model - INFO - Train Keypoint Offset Error: 0.000293
+2024-06-04 16:37:55,422 - Model - INFO - Train Translation Error: 0.800040
+2024-06-04 16:37:55,422 - Model - INFO - Train Mask Error: 0.012099
+2024-06-04 16:40:19,746 - Model - INFO - Test Keypoint offset Error: 0.000269, Translation Error: 0.752778, Rotation Error: 0.654719, Mask Error: 0.012833
+2024-06-04 16:40:19,746 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 16:40:19,747 - Model - INFO - Epoch 62 (62/200):
+2024-06-04 16:50:47,035 - Model - INFO - Train Rotation Error: 0.660188
+2024-06-04 16:50:47,035 - Model - INFO - Train Keypoint Offset Error: 0.000262
+2024-06-04 16:50:47,035 - Model - INFO - Train Translation Error: 0.806817
+2024-06-04 16:50:47,035 - Model - INFO - Train Mask Error: 0.012069
+2024-06-04 16:53:11,790 - Model - INFO - Test Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 16:53:11,790 - Model - INFO - Best Keypoint offset Error: 0.000450, Translation Error: 0.817985, Rotation Error: 0.654815, Mask Error: 0.011876
+2024-06-04 16:53:11,790 - Model - INFO - Save model...
+2024-06-04 16:53:11,790 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_62.pth
+2024-06-04 16:53:11,838 - Model - INFO - Epoch 63 (63/200):
+2024-06-04 17:03:40,766 - Model - INFO - Train Rotation Error: 0.659611
+2024-06-04 17:03:40,766 - Model - INFO - Train Keypoint Offset Error: 0.002101
+2024-06-04 17:03:40,766 - Model - INFO - Train Translation Error: 0.834686
+2024-06-04 17:03:40,766 - Model - INFO - Train Mask Error: 0.012211
+2024-06-04 17:06:05,560 - Model - INFO - Test Keypoint offset Error: 0.001385, Translation Error: 0.774681, Rotation Error: 0.654660, Mask Error: 0.012258
+2024-06-04 17:06:05,561 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 17:06:05,561 - Model - INFO - Epoch 64 (64/200):
+2024-06-04 17:16:31,997 - Model - INFO - Train Rotation Error: 0.660160
+2024-06-04 17:16:31,998 - Model - INFO - Train Keypoint Offset Error: 0.001158
+2024-06-04 17:16:31,998 - Model - INFO - Train Translation Error: 0.718676
+2024-06-04 17:16:31,998 - Model - INFO - Train Mask Error: 0.012122
+2024-06-04 17:18:56,253 - Model - INFO - Test Keypoint offset Error: 0.001170, Translation Error: 0.758638, Rotation Error: 0.654671, Mask Error: 0.012030
+2024-06-04 17:18:56,253 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 17:18:56,253 - Model - INFO - Epoch 65 (65/200):
+2024-06-04 17:29:21,906 - Model - INFO - Train Rotation Error: 0.660446
+2024-06-04 17:29:21,906 - Model - INFO - Train Keypoint Offset Error: 0.000989
+2024-06-04 17:29:21,906 - Model - INFO - Train Translation Error: 0.702110
+2024-06-04 17:29:21,906 - Model - INFO - Train Mask Error: 0.011944
+2024-06-04 17:31:46,391 - Model - INFO - Test Keypoint offset Error: 0.000895, Translation Error: 0.695818, Rotation Error: 0.654346, Mask Error: 0.013165
+2024-06-04 17:31:46,391 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 17:31:46,391 - Model - INFO - Epoch 66 (66/200):
+2024-06-04 17:42:12,615 - Model - INFO - Train Rotation Error: 0.659129
+2024-06-04 17:42:12,615 - Model - INFO - Train Keypoint Offset Error: 0.000717
+2024-06-04 17:42:12,615 - Model - INFO - Train Translation Error: 0.703473
+2024-06-04 17:42:12,615 - Model - INFO - Train Mask Error: 0.012021
+2024-06-04 17:44:37,269 - Model - INFO - Test Keypoint offset Error: 0.000522, Translation Error: 0.858068, Rotation Error: 0.654170, Mask Error: 0.012665
+2024-06-04 17:44:37,269 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 17:44:37,270 - Model - INFO - Epoch 67 (67/200):
+2024-06-04 17:55:04,890 - Model - INFO - Train Rotation Error: 0.659626
+2024-06-04 17:55:04,890 - Model - INFO - Train Keypoint Offset Error: 0.000572
+2024-06-04 17:55:04,890 - Model - INFO - Train Translation Error: 0.717534
+2024-06-04 17:55:04,890 - Model - INFO - Train Mask Error: 0.012048
+2024-06-04 17:57:29,446 - Model - INFO - Test Keypoint offset Error: 0.000454, Translation Error: 0.792348, Rotation Error: 0.654256, Mask Error: 0.012386
+2024-06-04 17:57:29,447 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 17:57:29,447 - Model - INFO - Epoch 68 (68/200):
+2024-06-04 18:07:55,988 - Model - INFO - Train Rotation Error: 0.653289
+2024-06-04 18:07:55,988 - Model - INFO - Train Keypoint Offset Error: 0.000628
+2024-06-04 18:07:55,988 - Model - INFO - Train Translation Error: 0.696340
+2024-06-04 18:07:55,988 - Model - INFO - Train Mask Error: 0.012071
+2024-06-04 18:10:20,564 - Model - INFO - Test Keypoint offset Error: 0.000993, Translation Error: 0.674803, Rotation Error: 0.670348, Mask Error: 0.012178
+2024-06-04 18:10:20,565 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 18:10:20,565 - Model - INFO - Epoch 69 (69/200):
+2024-06-04 18:20:46,837 - Model - INFO - Train Rotation Error: 0.662485
+2024-06-04 18:20:46,837 - Model - INFO - Train Keypoint Offset Error: 0.000909
+2024-06-04 18:20:46,838 - Model - INFO - Train Translation Error: 0.652652
+2024-06-04 18:20:46,838 - Model - INFO - Train Mask Error: 0.011907
+2024-06-04 18:23:11,889 - Model - INFO - Test Keypoint offset Error: 0.000869, Translation Error: 0.664712, Rotation Error: 0.670911, Mask Error: 0.012493
+2024-06-04 18:23:11,889 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 18:23:11,890 - Model - INFO - Epoch 70 (70/200):
+2024-06-04 18:33:37,692 - Model - INFO - Train Rotation Error: 0.662828
+2024-06-04 18:33:37,692 - Model - INFO - Train Keypoint Offset Error: 0.000872
+2024-06-04 18:33:37,692 - Model - INFO - Train Translation Error: 0.650773
+2024-06-04 18:33:37,692 - Model - INFO - Train Mask Error: 0.011939
+2024-06-04 18:36:01,803 - Model - INFO - Test Keypoint offset Error: 0.000852, Translation Error: 0.678659, Rotation Error: 0.671056, Mask Error: 0.012239
+2024-06-04 18:36:01,804 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 18:36:01,804 - Model - INFO - Epoch 71 (71/200):
+2024-06-04 18:46:28,189 - Model - INFO - Train Rotation Error: 0.663166
+2024-06-04 18:46:28,189 - Model - INFO - Train Keypoint Offset Error: 0.000831
+2024-06-04 18:46:28,189 - Model - INFO - Train Translation Error: 0.645647
+2024-06-04 18:46:28,189 - Model - INFO - Train Mask Error: 0.011846
+2024-06-04 18:48:52,535 - Model - INFO - Test Keypoint offset Error: 0.000804, Translation Error: 0.652531, Rotation Error: 0.671621, Mask Error: 0.013711
+2024-06-04 18:48:52,535 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 18:48:52,536 - Model - INFO - Epoch 72 (72/200):
+2024-06-04 18:59:20,215 - Model - INFO - Train Rotation Error: 0.662873
+2024-06-04 18:59:20,215 - Model - INFO - Train Keypoint Offset Error: 0.000828
+2024-06-04 18:59:20,215 - Model - INFO - Train Translation Error: 0.650870
+2024-06-04 18:59:20,215 - Model - INFO - Train Mask Error: 0.012029
+2024-06-04 19:01:44,900 - Model - INFO - Test Keypoint offset Error: 0.000802, Translation Error: 0.666145, Rotation Error: 0.672086, Mask Error: 0.011952
+2024-06-04 19:01:44,900 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 19:01:44,900 - Model - INFO - Epoch 73 (73/200):
+2024-06-04 19:12:11,953 - Model - INFO - Train Rotation Error: 0.662815
+2024-06-04 19:12:11,953 - Model - INFO - Train Keypoint Offset Error: 0.000808
+2024-06-04 19:12:11,953 - Model - INFO - Train Translation Error: 0.647675
+2024-06-04 19:12:11,953 - Model - INFO - Train Mask Error: 0.011961
+2024-06-04 19:14:36,617 - Model - INFO - Test Keypoint offset Error: 0.000820, Translation Error: 0.691792, Rotation Error: 0.672447, Mask Error: 0.012984
+2024-06-04 19:14:36,617 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 19:14:36,617 - Model - INFO - Epoch 74 (74/200):
+2024-06-04 19:25:03,427 - Model - INFO - Train Rotation Error: 0.663217
+2024-06-04 19:25:03,427 - Model - INFO - Train Keypoint Offset Error: 0.000790
+2024-06-04 19:25:03,427 - Model - INFO - Train Translation Error: 0.649493
+2024-06-04 19:25:03,427 - Model - INFO - Train Mask Error: 0.011965
+2024-06-04 19:27:27,688 - Model - INFO - Test Keypoint offset Error: 0.000822, Translation Error: 0.675646, Rotation Error: 0.671530, Mask Error: 0.011968
+2024-06-04 19:27:27,688 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 19:27:27,688 - Model - INFO - Epoch 75 (75/200):
+2024-06-04 19:37:54,273 - Model - INFO - Train Rotation Error: 0.663456
+2024-06-04 19:37:54,273 - Model - INFO - Train Keypoint Offset Error: 0.000782
+2024-06-04 19:37:54,273 - Model - INFO - Train Translation Error: 0.650067
+2024-06-04 19:37:54,273 - Model - INFO - Train Mask Error: 0.011850
+2024-06-04 19:40:18,700 - Model - INFO - Test Keypoint offset Error: 0.000769, Translation Error: 0.680819, Rotation Error: 0.671691, Mask Error: 0.012601
+2024-06-04 19:40:18,700 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 19:40:18,700 - Model - INFO - Epoch 76 (76/200):
+2024-06-04 19:50:46,211 - Model - INFO - Train Rotation Error: 0.663645
+2024-06-04 19:50:46,211 - Model - INFO - Train Keypoint Offset Error: 0.000892
+2024-06-04 19:50:46,211 - Model - INFO - Train Translation Error: 0.656574
+2024-06-04 19:50:46,211 - Model - INFO - Train Mask Error: 0.011887
+2024-06-04 19:53:10,447 - Model - INFO - Test Keypoint offset Error: 0.000874, Translation Error: 0.678865, Rotation Error: 0.671044, Mask Error: 0.012377
+2024-06-04 19:53:10,447 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 19:53:10,448 - Model - INFO - Epoch 77 (77/200):
+2024-06-04 20:03:36,380 - Model - INFO - Train Rotation Error: 0.663145
+2024-06-04 20:03:36,381 - Model - INFO - Train Keypoint Offset Error: 0.000790
+2024-06-04 20:03:36,381 - Model - INFO - Train Translation Error: 0.656814
+2024-06-04 20:03:36,381 - Model - INFO - Train Mask Error: 0.011973
+2024-06-04 20:06:01,251 - Model - INFO - Test Keypoint offset Error: 0.000767, Translation Error: 0.670416, Rotation Error: 0.670528, Mask Error: 0.012912
+2024-06-04 20:06:01,252 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 20:06:01,252 - Model - INFO - Epoch 78 (78/200):
+2024-06-04 20:16:27,058 - Model - INFO - Train Rotation Error: 0.663363
+2024-06-04 20:16:27,058 - Model - INFO - Train Keypoint Offset Error: 0.000746
+2024-06-04 20:16:27,058 - Model - INFO - Train Translation Error: 0.646216
+2024-06-04 20:16:27,058 - Model - INFO - Train Mask Error: 0.011975
+2024-06-04 20:18:51,354 - Model - INFO - Test Keypoint offset Error: 0.000734, Translation Error: 0.665328, Rotation Error: 0.670907, Mask Error: 0.012284
+2024-06-04 20:18:51,354 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 20:18:51,355 - Model - INFO - Epoch 79 (79/200):
+2024-06-04 20:29:18,437 - Model - INFO - Train Rotation Error: 0.663157
+2024-06-04 20:29:18,437 - Model - INFO - Train Keypoint Offset Error: 0.000726
+2024-06-04 20:29:18,437 - Model - INFO - Train Translation Error: 0.650331
+2024-06-04 20:29:18,437 - Model - INFO - Train Mask Error: 0.011958
+2024-06-04 20:31:42,900 - Model - INFO - Test Keypoint offset Error: 0.000744, Translation Error: 0.662699, Rotation Error: 0.670400, Mask Error: 0.012821
+2024-06-04 20:31:42,901 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 20:31:42,901 - Model - INFO - Epoch 80 (80/200):
+2024-06-04 20:42:10,345 - Model - INFO - Train Rotation Error: 0.662773
+2024-06-04 20:42:10,345 - Model - INFO - Train Keypoint Offset Error: 0.000713
+2024-06-04 20:42:10,345 - Model - INFO - Train Translation Error: 0.646830
+2024-06-04 20:42:10,345 - Model - INFO - Train Mask Error: 0.011851
+2024-06-04 20:44:34,606 - Model - INFO - Test Keypoint offset Error: 0.000700, Translation Error: 0.680244, Rotation Error: 0.670558, Mask Error: 0.012293
+2024-06-04 20:44:34,606 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 20:44:34,606 - Model - INFO - Epoch 81 (81/200):
+2024-06-04 20:55:01,472 - Model - INFO - Train Rotation Error: 0.663448
+2024-06-04 20:55:01,472 - Model - INFO - Train Keypoint Offset Error: 0.001014
+2024-06-04 20:55:01,472 - Model - INFO - Train Translation Error: 0.692274
+2024-06-04 20:55:01,472 - Model - INFO - Train Mask Error: 0.012156
+2024-06-04 20:57:26,028 - Model - INFO - Test Keypoint offset Error: 0.000793, Translation Error: 0.722473, Rotation Error: 0.655057, Mask Error: 0.012136
+2024-06-04 20:57:26,028 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 20:57:26,028 - Model - INFO - Epoch 82 (82/200):
+2024-06-04 21:07:52,732 - Model - INFO - Train Rotation Error: 0.660330
+2024-06-04 21:07:52,733 - Model - INFO - Train Keypoint Offset Error: 0.000745
+2024-06-04 21:07:52,733 - Model - INFO - Train Translation Error: 0.695401
+2024-06-04 21:07:52,733 - Model - INFO - Train Mask Error: 0.011910
+2024-06-04 21:10:20,284 - Model - INFO - Test Keypoint offset Error: 0.000664, Translation Error: 0.727639, Rotation Error: 0.654615, Mask Error: 0.012660
+2024-06-04 21:10:20,284 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 21:10:20,285 - Model - INFO - Epoch 83 (83/200):
+2024-06-04 21:20:54,704 - Model - INFO - Train Rotation Error: 0.660801
+2024-06-04 21:20:54,704 - Model - INFO - Train Keypoint Offset Error: 0.000527
+2024-06-04 21:20:54,704 - Model - INFO - Train Translation Error: 0.672444
+2024-06-04 21:20:54,704 - Model - INFO - Train Mask Error: 0.012007
+2024-06-04 21:23:19,538 - Model - INFO - Test Keypoint offset Error: 0.000472, Translation Error: 0.673235, Rotation Error: 0.655057, Mask Error: 0.011900
+2024-06-04 21:23:19,538 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 21:23:19,538 - Model - INFO - Epoch 84 (84/200):
+2024-06-04 21:33:48,652 - Model - INFO - Train Rotation Error: 0.659501
+2024-06-04 21:33:48,652 - Model - INFO - Train Keypoint Offset Error: 0.000543
+2024-06-04 21:33:48,652 - Model - INFO - Train Translation Error: 0.675280
+2024-06-04 21:33:48,652 - Model - INFO - Train Mask Error: 0.011943
+2024-06-04 21:36:13,940 - Model - INFO - Test Keypoint offset Error: 0.000382, Translation Error: 0.728244, Rotation Error: 0.655313, Mask Error: 0.012509
+2024-06-04 21:36:13,940 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 21:36:13,940 - Model - INFO - Epoch 85 (85/200):
+2024-06-04 21:46:44,088 - Model - INFO - Train Rotation Error: 0.659533
+2024-06-04 21:46:44,089 - Model - INFO - Train Keypoint Offset Error: 0.000322
+2024-06-04 21:46:44,089 - Model - INFO - Train Translation Error: 0.665248
+2024-06-04 21:46:44,089 - Model - INFO - Train Mask Error: 0.011967
+2024-06-04 21:49:09,067 - Model - INFO - Test Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 21:49:09,067 - Model - INFO - Best Keypoint offset Error: 0.000257, Translation Error: 0.795644, Rotation Error: 0.654578, Mask Error: 0.012037
+2024-06-04 21:49:09,067 - Model - INFO - Save model...
+2024-06-04 21:49:09,067 - Model - INFO - Saving at log/kpts/2024-06-04_03-33/checkpoints/best_model_e_85.pth
+2024-06-04 21:49:09,115 - Model - INFO - Epoch 86 (86/200):
+2024-06-04 21:59:39,870 - Model - INFO - Train Rotation Error: 0.659326
+2024-06-04 21:59:39,870 - Model - INFO - Train Keypoint Offset Error: 0.000283
+2024-06-04 21:59:39,870 - Model - INFO - Train Translation Error: 0.674921
+2024-06-04 21:59:39,870 - Model - INFO - Train Mask Error: 0.012062
+2024-06-04 22:02:05,248 - Model - INFO - Test Keypoint offset Error: 0.000317, Translation Error: 0.698635, Rotation Error: 0.654701, Mask Error: 0.012820
+2024-06-04 22:02:05,248 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 22:02:05,249 - Model - INFO - Epoch 87 (87/200):
+2024-06-04 22:12:35,070 - Model - INFO - Train Rotation Error: 0.660524
+2024-06-04 22:12:35,070 - Model - INFO - Train Keypoint Offset Error: 0.000284
+2024-06-04 22:12:35,070 - Model - INFO - Train Translation Error: 0.680200
+2024-06-04 22:12:35,070 - Model - INFO - Train Mask Error: 0.011890
+2024-06-04 22:15:00,129 - Model - INFO - Test Keypoint offset Error: 0.000262, Translation Error: 0.736692, Rotation Error: 0.655010, Mask Error: 0.011990
+2024-06-04 22:15:00,129 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 22:15:00,130 - Model - INFO - Epoch 88 (88/200):
+2024-06-04 22:25:30,261 - Model - INFO - Train Rotation Error: 0.660220
+2024-06-04 22:25:30,261 - Model - INFO - Train Keypoint Offset Error: 0.000373
+2024-06-04 22:25:30,262 - Model - INFO - Train Translation Error: 0.685800
+2024-06-04 22:25:30,262 - Model - INFO - Train Mask Error: 0.011895
+2024-06-04 22:27:55,058 - Model - INFO - Test Keypoint offset Error: 0.000432, Translation Error: 0.773746, Rotation Error: 0.654854, Mask Error: 0.011985
+2024-06-04 22:27:55,058 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 22:27:55,058 - Model - INFO - Epoch 89 (89/200):
+2024-06-04 22:38:25,679 - Model - INFO - Train Rotation Error: 0.659828
+2024-06-04 22:38:25,679 - Model - INFO - Train Keypoint Offset Error: 0.000671
+2024-06-04 22:38:25,679 - Model - INFO - Train Translation Error: 0.705707
+2024-06-04 22:38:25,679 - Model - INFO - Train Mask Error: 0.012029
+2024-06-04 22:40:53,048 - Model - INFO - Test Keypoint offset Error: 0.000620, Translation Error: 0.762582, Rotation Error: 0.655212, Mask Error: 0.012067
+2024-06-04 22:40:53,048 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 22:40:53,049 - Model - INFO - Epoch 90 (90/200):
+2024-06-04 22:51:28,334 - Model - INFO - Train Rotation Error: 0.659713
+2024-06-04 22:51:28,334 - Model - INFO - Train Keypoint Offset Error: 0.000354
+2024-06-04 22:51:28,334 - Model - INFO - Train Translation Error: 0.696890
+2024-06-04 22:51:28,334 - Model - INFO - Train Mask Error: 0.011895
+2024-06-04 22:53:54,223 - Model - INFO - Test Keypoint offset Error: 0.000251, Translation Error: 0.739629, Rotation Error: 0.654717, Mask Error: 0.012442
+2024-06-04 22:53:54,223 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 22:53:54,224 - Model - INFO - Epoch 91 (91/200):
+2024-06-04 23:04:22,572 - Model - INFO - Train Rotation Error: 0.663116
+2024-06-04 23:04:22,572 - Model - INFO - Train Keypoint Offset Error: 0.000773
+2024-06-04 23:04:22,573 - Model - INFO - Train Translation Error: 0.656157
+2024-06-04 23:04:22,573 - Model - INFO - Train Mask Error: 0.011999
+2024-06-04 23:06:47,565 - Model - INFO - Test Keypoint offset Error: 0.000964, Translation Error: 0.669901, Rotation Error: 0.669517, Mask Error: 0.012233
+2024-06-04 23:06:47,566 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 23:06:47,566 - Model - INFO - Epoch 92 (92/200):
+2024-06-04 23:17:17,115 - Model - INFO - Train Rotation Error: 0.661731
+2024-06-04 23:17:17,115 - Model - INFO - Train Keypoint Offset Error: 0.000892
+2024-06-04 23:17:17,115 - Model - INFO - Train Translation Error: 0.642978
+2024-06-04 23:17:17,115 - Model - INFO - Train Mask Error: 0.011779
+2024-06-04 23:19:42,424 - Model - INFO - Test Keypoint offset Error: 0.000730, Translation Error: 0.670301, Rotation Error: 0.669003, Mask Error: 0.012411
+2024-06-04 23:19:42,424 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 23:19:42,424 - Model - INFO - Epoch 93 (93/200):
+2024-06-04 23:30:12,644 - Model - INFO - Train Rotation Error: 0.662703
+2024-06-04 23:30:12,645 - Model - INFO - Train Keypoint Offset Error: 0.000728
+2024-06-04 23:30:12,645 - Model - INFO - Train Translation Error: 0.648841
+2024-06-04 23:30:12,645 - Model - INFO - Train Mask Error: 0.011999
+2024-06-04 23:32:37,188 - Model - INFO - Test Keypoint offset Error: 0.000633, Translation Error: 0.677176, Rotation Error: 0.667916, Mask Error: 0.011990
+2024-06-04 23:32:37,188 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 23:32:37,189 - Model - INFO - Epoch 94 (94/200):
+2024-06-04 23:43:03,446 - Model - INFO - Train Rotation Error: 0.662234
+2024-06-04 23:43:03,446 - Model - INFO - Train Keypoint Offset Error: 0.000828
+2024-06-04 23:43:03,446 - Model - INFO - Train Translation Error: 0.675812
+2024-06-04 23:43:03,446 - Model - INFO - Train Mask Error: 0.012313
+2024-06-04 23:45:27,740 - Model - INFO - Test Keypoint offset Error: 0.000445, Translation Error: 0.696918, Rotation Error: 0.653427, Mask Error: 0.012240
+2024-06-04 23:45:27,740 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 23:45:27,740 - Model - INFO - Epoch 95 (95/200):
+2024-06-04 23:55:54,312 - Model - INFO - Train Rotation Error: 0.661337
+2024-06-04 23:55:54,312 - Model - INFO - Train Keypoint Offset Error: 0.000455
+2024-06-04 23:55:54,312 - Model - INFO - Train Translation Error: 0.663471
+2024-06-04 23:55:54,312 - Model - INFO - Train Mask Error: 0.011982
+2024-06-04 23:58:18,792 - Model - INFO - Test Keypoint offset Error: 0.000484, Translation Error: 0.695732, Rotation Error: 0.653363, Mask Error: 0.012060
+2024-06-04 23:58:18,793 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-04 23:58:18,793 - Model - INFO - Epoch 96 (96/200):
+2024-06-05 00:08:45,427 - Model - INFO - Train Rotation Error: 0.659822
+2024-06-05 00:08:45,427 - Model - INFO - Train Keypoint Offset Error: 0.000468
+2024-06-05 00:08:45,427 - Model - INFO - Train Translation Error: 0.668562
+2024-06-05 00:08:45,427 - Model - INFO - Train Mask Error: 0.011944
+2024-06-05 00:11:10,117 - Model - INFO - Test Keypoint offset Error: 0.000395, Translation Error: 0.687302, Rotation Error: 0.653612, Mask Error: 0.012160
+2024-06-05 00:11:10,117 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-05 00:11:10,117 - Model - INFO - Epoch 97 (97/200):
+2024-06-05 00:21:39,922 - Model - INFO - Train Rotation Error: 0.659758
+2024-06-05 00:21:39,922 - Model - INFO - Train Keypoint Offset Error: 0.000388
+2024-06-05 00:21:39,922 - Model - INFO - Train Translation Error: 0.667954
+2024-06-05 00:21:39,922 - Model - INFO - Train Mask Error: 0.011951
+2024-06-05 00:24:04,363 - Model - INFO - Test Keypoint offset Error: 0.000395, Translation Error: 0.684433, Rotation Error: 0.653830, Mask Error: 0.011835
+2024-06-05 00:24:04,363 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-05 00:24:04,364 - Model - INFO - Epoch 98 (98/200):
+2024-06-05 00:34:30,246 - Model - INFO - Train Rotation Error: 0.660065
+2024-06-05 00:34:30,246 - Model - INFO - Train Keypoint Offset Error: 0.000377
+2024-06-05 00:34:30,246 - Model - INFO - Train Translation Error: 0.667226
+2024-06-05 00:34:30,246 - Model - INFO - Train Mask Error: 0.011915
+2024-06-05 00:36:54,838 - Model - INFO - Test Keypoint offset Error: 0.000325, Translation Error: 0.702911, Rotation Error: 0.653551, Mask Error: 0.012115
+2024-06-05 00:36:54,838 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-05 00:36:54,838 - Model - INFO - Epoch 99 (99/200):
+2024-06-05 00:47:20,996 - Model - INFO - Train Rotation Error: 0.660513
+2024-06-05 00:47:20,996 - Model - INFO - Train Keypoint Offset Error: 0.000336
+2024-06-05 00:47:20,996 - Model - INFO - Train Translation Error: 0.672247
+2024-06-05 00:47:20,996 - Model - INFO - Train Mask Error: 0.011982
+2024-06-05 00:49:47,143 - Model - INFO - Test Keypoint offset Error: 0.000426, Translation Error: 0.697609, Rotation Error: 0.653978, Mask Error: 0.012142
+2024-06-05 00:49:47,144 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-05 00:49:47,144 - Model - INFO - Epoch 100 (100/200):
+2024-06-05 01:00:18,520 - Model - INFO - Train Rotation Error: 0.659782
+2024-06-05 01:00:18,521 - Model - INFO - Train Keypoint Offset Error: 0.000366
+2024-06-05 01:00:18,521 - Model - INFO - Train Translation Error: 0.676254
+2024-06-05 01:00:18,521 - Model - INFO - Train Mask Error: 0.011836
+2024-06-05 01:02:44,981 - Model - INFO - Test Keypoint offset Error: 0.000309, Translation Error: 0.724089, Rotation Error: 0.653855, Mask Error: 0.012275
+2024-06-05 01:02:44,981 - Model - INFO - Best Keypoint offset Error: 0.000280, Translation Error: 0.733044, Rotation Error: 0.654700, Mask Error: 0.011908
+2024-06-05 01:02:44,982 - Model - INFO - Epoch 101 (101/200):
