@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<robot name="usb_place">
+  <link name="usb_place">
+    <visual>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <mesh filename="./obj-and-urdf/usb_head_place_150.obj" scale="1 1 1"/>
+      </geometry>
+    </visual>
+    <collision>
+      <origin xyz="0.0 0.0 0.0"/>
+      <geometry>
+        <mesh filename="./obj-and-urdf/usb_head_place_150_vhacd.obj" scale="1 1 1"/>
+      </geometry>
+    </collision>
+  </link>
+</robot>
